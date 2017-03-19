@@ -36,7 +36,7 @@ You can then run `tutum service ps --stack wordpress` to find out the url of you
 Usage (as a base image)
 -----------------------
 
-If you want to use it as a base image to create your customized version of wordpress, you can do so by creating a `Dockerfile` similar to the following:
+If you want to use it as a base image to create your customized version of wordpress, you can do so by creating a `Dockerfile` similar to the following::
 
     FROM tutum/wordpress-stackable:latest
 
